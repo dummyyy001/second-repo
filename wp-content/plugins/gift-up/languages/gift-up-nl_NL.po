@@ -1,0 +1,83 @@
+# Copyright (C) 2020 Gift Up!
+# This file is distributed under the same license as the Gift Up! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Up! 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-12-14 09:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-10-02 09:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1"
+
+#: view/giftup-cart.php:93
+msgid "Apply"
+msgstr "Toepassen"
+
+#: view/giftup-cart.php:85 view/giftup-cart.php:92
+msgid "Apply gift card"
+msgstr "Cadeaukaart invoeren"
+
+#: view/giftup-cart.php:78
+msgid "Balance"
+msgstr "Balans"
+
+#: includes/giftup-woocommerce-hooks.php:222 view/giftup-cart.php:60
+#: view/giftup-cart.php:72
+msgid "Gift card"
+msgstr "Cadeaukaart"
+
+#: view/giftup-cart.php:45
+msgid ""
+"Gift card cannot be used as it is a unit-backed, not a currency-backed gift "
+"card"
+msgstr ""
+"Cadeaukaart kan niet worden gebruikt omdat dit een eenheids kaart is, geen "
+"waarde kaart"
+
+#: view/giftup-cart.php:89
+msgid "Gift card code"
+msgstr "Cadeaukaart code"
+
+#: view/giftup-cart.php:41
+msgid "Gift card has expired"
+msgstr "Cadeaukaart is verlopen"
+
+#: view/giftup-cart.php:49
+msgid "Gift card has no remaining balance"
+msgstr "Cadeaukaart heeft geen saldo"
+
+#: view/giftup-cart.php:56
+msgid "Gift card not found"
+msgstr "Cadeaukaart niet gevonden"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Gift Up!"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.giftup.com/"
+msgstr ""
+
+#: view/giftup-cart.php:76
+#| msgid "remove"
+msgid "Remove"
+msgstr "Verwijderen"
+
+#. Description of the plugin
+msgid ""
+"The simplest way to sell your own gift cards/certificates/vouchers from "
+"inside your WordPress website easily with no monthly fee. Redeemable in your "
+"WooCommerce shopping cart."
+msgstr ""
+"De eenvoudigste manier om uw eigen cadeaubonnen/certificaten/vouchers "
+"eenvoudig vanuit uw WordPress-website te verkopen zonder maandelijkse kosten."
+" Inwisselbaar in je WooCommerce-winkelwagentje."

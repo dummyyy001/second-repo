@@ -1,0 +1,78 @@
+{
+    "name": "wpdesk\/flexible-quantity-core",
+    "description": "Flexible Quantity Core",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Piotr Potrebka",
+            "email": "piotr.potrebka@wpdesk.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WDFQVendorFree\\WPDesk\\Library\\FlexibleQuantityCore\\": "src\/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests\/unit",
+            "tests\/integration"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.3.33"
+        },
+        "allow-plugins": {
+            "cweagans\/composer-patches": true,
+            "kylekatarnls\/update-helper": true,
+            "dealerdirect\/phpcodesniffer-composer-installer": true,
+            "phpstan\/extension-installer": true
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.3.33",
+        "ext-zip": "*",
+        "brick\/math": "^0.9.3",
+        "psr\/log": "^1.0.1",
+        "wpdesk\/wp-builder": "^2.1",
+        "wpdesk\/wp-persistence": "^3",
+        "wpdesk\/wp-view": "^2.0",
+        "wpdesk\/wp-wpdesk-helper-override": "^1.1.0",
+        "wpdesk\/wp-wpdesk-marketing": "^1"
+    },
+    "require-dev": {
+        "10up\/wp_mock": "*",
+        "mockery\/mockery": "*",
+        "phpunit\/phpunit": "^9",
+        "wp-cli\/wp-cli": "^2",
+        "wp-cli\/wp-cli-bundle": "^2",
+        "wpdesk\/phpstan-rules": "^1.1",
+        "wpdesk\/wp-code-sniffer": "^1.2.3"
+    },
+    "extra": {
+        "text-domain": "flexible-quantity-core",
+        "translations-folder": "lang",
+        "minify-assets": {
+            "js": [
+                "assets\/js\/settings.js"
+            ],
+            "css": [
+                "assets\/css\/settings.css"
+            ]
+        },
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage",
+        "generate-pot": "wp i18n make-pot . lang\/flexible-quantity-core.pot"
+    }
+}

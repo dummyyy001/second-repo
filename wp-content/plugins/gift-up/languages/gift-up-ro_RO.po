@@ -1,0 +1,84 @@
+# Copyright (C) 2020 Gift Up!
+# This file is distributed under the same license as the Gift Up! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Up! 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-06-16 15:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-10-02 09:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: view/giftup-cart.php:93
+msgid "Apply"
+msgstr "aplica"
+
+#: view/giftup-cart.php:85 view/giftup-cart.php:92
+msgid "Apply gift card"
+msgstr "Aplicați card cadou"
+
+#: view/giftup-cart.php:78
+msgid "Balance"
+msgstr "Echilibru"
+
+#: includes/giftup-woocommerce-hooks.php:222 view/giftup-cart.php:60
+#: view/giftup-cart.php:72
+msgid "Gift card"
+msgstr "Card cadou"
+
+#: view/giftup-cart.php:45
+msgid ""
+"Gift card cannot be used as it is a unit-backed, not a currency-backed gift "
+"card"
+msgstr ""
+"Cardul cadou nu poate fi utilizat, deoarece este un card cadou susținut de "
+"unități, nu un card cadou susținut în valută"
+
+#: view/giftup-cart.php:89
+msgid "Gift card code"
+msgstr "Cod card cadou"
+
+#: view/giftup-cart.php:41
+msgid "Gift card has expired"
+msgstr "Cardul cadou a expirat"
+
+#: view/giftup-cart.php:49
+msgid "Gift card has no remaining balance"
+msgstr "Cardul cadou nu mai are soldul rămas"
+
+#: view/giftup-cart.php:56
+msgid "Gift card not found"
+msgstr "Cardul cadou nu a fost găsit"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Gift Up!"
+msgstr "Cadou sus!"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.giftup.com/"
+msgstr "https://www.giftup.com/"
+
+#: view/giftup-cart.php:76
+#| msgid "remove"
+msgid "Remove"
+msgstr "Elimina"
+
+#. Description of the plugin
+msgid ""
+"The simplest way to sell your own gift cards/certificates/vouchers from "
+"inside your WordPress website easily with no monthly fee. Redeemable in your "
+"WooCommerce shopping cart."
+msgstr ""
+"Cea mai simplă modalitate de a vinde carduri / certificate / vouchere cadou "
+"din interiorul site-ului dvs. WordPress cu ușurință, fără taxe lunare. "
+"Răscumpărați în coșul de cumpărături WooCommerce."

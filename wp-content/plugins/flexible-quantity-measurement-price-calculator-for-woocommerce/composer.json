@@ -1,0 +1,79 @@
+{
+	"name": "wpdesk/flexible-quantity-measurement-price-calculator-for-woocommerce-measurement-price-calculator-for-woocommerce",
+	"description": "Flexible Quantity Free",
+	"authors": [
+		{
+			"name": "Piotr Potrebka",
+			"email": "piotr.potrebka@wpdesk.pl"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WPDesk\\FlexibleQuantityFree\\": "src/"
+		},
+		"classmap": [
+			"vendor_prefixed"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/unit",
+			"tests/integration"
+		]
+	},
+	"config": {
+		"sort-packages": true,
+		"platform": {
+			"php": "7.3.33"
+		},
+		"allow-plugins": {
+			"cweagans/composer-patches": true,
+			"kylekatarnls/update-helper": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"wpdesk/wp-codeception": true,
+			"wpdesk/wp-wpdesk-composer": true,
+			"wpdesk/wp-logs": true
+		},
+		"platform-check": false
+	},
+	"prefer-stable": true,
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=7.3",
+		"ext-zip": "*",
+		"psr/log": "^1.0.1",
+		"psr/container": "^1.0",
+		"wpdesk/wp-wpdesk-helper-override": "^1.1.0"
+	},
+	"require-dev": {
+		"10up/wp_mock": "*",
+		"phpunit/phpunit": "^9",
+		"composer/composer": "1.10.25",
+		"wpdesk/wp-wpdesk-composer": "^2",
+		"wpdesk/wp-codeception": "^2",
+		"wpdesk/wp-plugin-flow-free": "*",
+		"wpdesk/wp-logs": "^1",
+		"monolog/monolog": "*",
+		"wpdesk/flexible-quantity-core": "1.1.12",
+		"wpdesk/ltv-dashboard-widget": "^1"
+	},
+	"extra": {
+		"text-domain": "flexible-quantity-measurement-price-calculator-for-woocommerce",
+		"translations-folder": "lang",
+		"translation-file-headers": {
+			"Project-Id-Version": "Flexible Quantity - Measurement Price Calculator for WooCommerce",
+			"Last-Translator": "Marcin Kolanko <marcin@wpdesk.net>",
+			"X-Poedit-WPHeader": "flexible-quantity-measurement-price-calculator-for-woocommerce.php"
+		},
+		"po-files": {
+			"pl_PL": "pl_PL.po"
+		}
+	},
+	"scripts": {
+		"test": "echo composer is alive",
+		"phpcs": "phpcs",
+		"phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+		"phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+		"docs": "apigen generate"
+	}
+}

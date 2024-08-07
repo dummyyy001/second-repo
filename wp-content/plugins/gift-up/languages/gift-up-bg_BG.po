@@ -1,0 +1,84 @@
+# Copyright (C) 2020 Gift Up!
+# This file is distributed under the same license as the Gift Up! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Up! 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-06-16 15:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-10-02 09:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.6"
+
+#: view/giftup-cart.php:93
+msgid "Apply"
+msgstr "Приложи"
+
+#: view/giftup-cart.php:85 view/giftup-cart.php:92
+msgid "Apply gift card"
+msgstr "Приложете подаръчна карта"
+
+#: view/giftup-cart.php:78
+msgid "Balance"
+msgstr "Баланс"
+
+#: includes/giftup-woocommerce-hooks.php:222 view/giftup-cart.php:60
+#: view/giftup-cart.php:72
+msgid "Gift card"
+msgstr "Карта за подарък"
+
+#: view/giftup-cart.php:45
+msgid ""
+"Gift card cannot be used as it is a unit-backed, not a currency-backed gift "
+"card"
+msgstr ""
+"Карта за подарък не може да се използва, тъй като тя е обезпечена с единица, "
+"а не с валута"
+
+#: view/giftup-cart.php:89
+msgid "Gift card code"
+msgstr "Код на карти за подарък"
+
+#: view/giftup-cart.php:41
+msgid "Gift card has expired"
+msgstr "Картата за подарък е изтекла"
+
+#: view/giftup-cart.php:49
+msgid "Gift card has no remaining balance"
+msgstr "Картата за подарък няма остатъчен баланс"
+
+#: view/giftup-cart.php:56
+msgid "Gift card not found"
+msgstr "Карта за подарък не е намерена"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Gift Up!"
+msgstr "Подарък нагоре!"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.giftup.com/"
+msgstr "https://www.giftup.com/"
+
+#: view/giftup-cart.php:76
+#, fuzzy
+#| msgid "remove"
+msgid "Remove"
+msgstr "Премахване"
+
+#. Description of the plugin
+msgid ""
+"The simplest way to sell your own gift cards/certificates/vouchers from "
+"inside your WordPress website easily with no monthly fee. Redeemable in your "
+"WooCommerce shopping cart."
+msgstr ""
+"Най-простият начин да продавате вашите собствени карти за подарък / "
+"сертификати / ваучери от вашия уебсайт WordPress лесно, без месечна такса. "
+"Възможност за изкупуване във вашата количка за пазаруване WooCommerce."

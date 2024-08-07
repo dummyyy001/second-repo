@@ -1,0 +1,173 @@
+#tbl_shortcode .copy-shortcode {
+  border: none;
+  position: relative;
+  float: right;
+}
+
+#tbl_shortcode .copy-shortcode:focus {
+  outline: 1px solid #dee2e6;
+}
+
+#tbl_shortcode .copy-shortcode:focus .alert {
+  outline: none;
+}
+
+#tbl_shortcode .copy-shortcode .alert {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  padding: 10px;
+  transform: translateX(-50%);
+}
+
+#tbl_shortcode tbody td:first-child {
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+
+/*New Css*/
+/*Card Modal*/
+.asl_manageCardModal .smodal-dialog {
+  max-width: 800px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .asl_previewCard img {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group label,
+.asl_manageCardModal .smodal-content .smodal-body .label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #69719d;
+  font-weight: 400;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group input,
+.asl_manageCardModal .smodal-content .smodal-body .form-group input::placeholder {
+  color: #495057;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .custom-control-label {
+  flex: 1;
+  padding: 0;
+  color: #69719d;
+  cursor: inherit;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .custom-control-label:before {
+  display: none;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .form-group-inner {
+  max-width: 67px;
+  flex: 0 0 67px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .form-group-inner .switch {
+  margin: 0;
+  padding: 0;
+  height: 22px;
+  width: 100%;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .form-group-inner .form-control {
+  width: 100%;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .switch span.slider {
+  right: 0;
+  left: unset;
+  width: 50px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .switch .slider:before {
+  top: 3px;
+  left: 4px;
+  width: 15.5px;
+  height: 15.5px;
+  bottom: inherit;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .switch input:checked+.slider {
+  background-color: #008fed;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .switch input:checked+.slider:before {
+  -webkit-transform: translateX(27px);
+  transform: translateX(27px);
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox .form-group {
+  margin-right: 12px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterAddButton {
+  text-align: right;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterAddButton button:focus,
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox .asl_cardFilterRemoveButton button:focus {
+  outline: none;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterAddButton button,
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox .asl_cardFilterRemoveButton button {
+  padding: 0;
+  border: none;
+  margin-top: 0;
+  cursor: pointer;
+  border-radius: 0;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterAddButton button i {
+  padding: 0;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1.5px solid black;
+  line-height: 17px;
+  display: block;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox .asl_cardFilterRemoveButton {
+  margin-bottom: 12px;
+}
+
+.asl_manageCardModal .smodal-content .smodal-body .form-group .asl_cardFilterBox .asl_cardFilterCtnBox .asl_cardFilterRemoveButton button i {
+  padding: 0;
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1.5px solid red;
+  line-height: 13px;
+  display: block;
+  font-style: initial;
+}

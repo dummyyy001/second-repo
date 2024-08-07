@@ -1,0 +1,493 @@
+03-01-2024 (4.9.18)
+- Fixed the list template secondary search
+- Change the config value column to text
+- map_id is supported for Advanced Maps
+
+
+29-11-2023 (4.9.16)
+- Northern Ireland country added
+- Get Stores Meta Methods
+- Reload Store Locator Method
+- Compatible with Multi-Store Addons for WC (1.4 version)
+- List Template, single brand selection fixed
+- JS hook "before_search" added
+- Fix enter key on list template search
+
+25-10-2023 (4.9.15)
+- Rank Math Store Detail page
+- Improved the JS hook
+- Improved Remove Duplicate Store
+- Registration action and filter
+
+5-10-2023 (4.9.14)
+- Template 4 Time Status
+- Direction button
+- CSS Updates
+
+
+21-09-2023 (4.9.13)
+- Added clear button to the filter dropdowns in Template 3
+- Fixed an event for the unselect
+- HTML entities in title hover
+
+18-09-2023 (4.9.12)
+- Compatible with PHP 8.2
+- Autoscroll to Map in Template 4
+
+13-09-2023 (4.9.11)
+- Sanitization Improvements
+- List Template - Search by Store Name improvement
+- Google Advanced Marker fixes (animation issue)
+- Hide open hours on detail page
+
+5-09-2023 (4.9.10)
+- Store Cards
+- Minor CSS issues
+- Minor Edits
+- Fix the categories issue (in import)
+
+2-09-2023 (4.9.9)
+- Added the updater
+
+
+30-08-2023 (4.9.8)
+- Elementor widget issue fixed (since 4.9.7)
+
+29-08-2023 (4.9.7)
+- Sub-categories are supported
+- ADA compliance
+- Minor issues fixes
+
+22-08-2023 (4.9.6)
+- Fixed the Translation issue, that has occurred since 4.9.4
+
+09-08-2023 (4.9.4)
+- Supports Latest Advanced Google Maps Markers(https://developers.google.com/maps/documentation/javascript/advanced-markers/html-markers)
+- Fixed the searching issue after custom column addition
+- Meta tag in the Store Detail page
+- WordPress 6.3 Tested
+
+24-07-2023 (4.9.3)
+- The Datatables version upgraded (1.13.5)
+- Zoom text change (label change)
+- Custom columns are added to the listing
+
+26-06-2023 (4.9)
+- Compatible with Multi-Store Addons for WooCommerce (Store Manager Dashboard)
+- Multi-Store Addons Dashboard for Store Manager is now supported (with Multi-Store Addons for WooCommerce)
+
+19-06-2023 (4.8.32)
+- Supported Update by any default column in CSV
+- closed_label to show closed days in grouped hours
+- Close the info box when a search is performed
+- Added actions before & after CSV import
+- Supports Store Manager using Multi-Store Addons for WooCommerce
+
+04-05-2023 (4.8.28)
+- ***Major Updates***
+- Added scheduling options to schedule the stores
+- Labels section to make changes in the labels directly
+- The multi-dropdown issue for multiple languages fixed
+- Template 5 has been revamped
+- More parameters are supported for store detail slug
+
+30-03-2023 (4.8.27)
+- Compatible with WordPress 6.2
+
+29-03-2023 (4.8.27)
+- Custom Map fixed
+- Show Pending Stores fixed
+
+17-03-2023 (4.8.26)
+- Support sort by the category list based on category order ID
+- Added Map Modal to set the coordinates
+- Minor CSS adjusted
+- Clean input values
+- Supports multiple values in additional dropdowns [ASL_STORELOCATOR special="2,3,4"]
+- delete_id column to delete the store using CSV file
+- Sort the list of import files
+- WPML support Polylang
+
+06-02-2023 (4.8.20)
+- Customizer in Template 4
+- Store Page widget extended for fields attribute
+- Minor updates
+- WPML support for the Store Detail page
+- List Template font tool fixed
+
+16-02-2023 (4.8.22)
+- Zoom button hide option
+- Improved performance for a simple map without a list
+- Search Widget Elementor
+- Store Grid Elementor
+
+02-03-2023 (4.8.24)
+- Stores Site Map is added via Yoast
+- KML_Files empty array error is resolved
+- Introduced option to show stores only after a filter is applied
+- VC Grid Widgets
+- Elementor Widgets
+- Store Detail Slug method is updated
+- Field Selection for the Slug
+- Disable the Zoom button option
+
+25-01-2023 (4.8.19)
+- Fixed the callback console error, which was being removed due to Google Maps library changes
+- Added Social Media icons by default in the listing
+- Resolved the auto-redirect through the search widget
+
+05-01-2023 (4.8.17)
+- Minor typo mistake of link
+- Added the delete all filter
+
+15-12-2022 (4.8.15)
+- New grid template added
+- Option to add brand and special dropdowns
+
+07-12-2022 (4.8.13)
+- Added a search button in the list template
+- Grouped hours are supported in the Detail page
+- Minor fixes
+
+16-11-2022
+- Upgraded the store register form
+- Deprecation message no longer appears
+- Search by custom filter integrated
+
+24-10-2022
+- Removed the Additional Google Fonts that was loading due to GDPR
+- Removed the Roboto fonts from loading due to GDPR
+- Fully GDPR compliance
+- Compatible with PHP 8.1 and WordPress 6.1
+
+19-10-2022
+- CSRF added Added full form to the registration
+- Email Notification tab text change
+- Load Markers without list option
+- The grouped week hours issue fixed
+
+23-09-2022
+- License functionality updated
+
+05-09-2022
+- WP Media for the Store Logos
+- Webp files are supported
+
+31-08-2022
+- Improve the dashboard page
+- Export Analytics
+- Replace analytics chart
+- Simple/Expert view
+
+18-08-22
+- Improved the Accordion list
+- Source improvement
+- Send link to approve store via email
+- CF7 leads integration
+- CF7 Lead Manager
+- Multi Store WooCommerce Addon support integrated
+
+13-07-2022
+- Show error when coordinates are invalid
+- Modal will show description and additional description titles
+- Open in a new tab is fixed
+- Minor CSS changes
+- Category Accordion is updated
+
+01-07-2022
+- GEOJS.IO library is integrated for IP based Geolocation
+
+29-06-2022
+- Elementor Shortcode builder is added
+- Gutenberg Shortcode builder is added
+- Minor issues fixed
+
+14-06-2022
+- Fixed the stores count in Manage stores (issue since the last update)
+
+09-06-2022
+- Updated the list template
+- List template UI Customizer added
+- Add categories filter in the Manage stores
+- List template with query parameter /store-locator/?sl-addr=california
+
+23-05-2022
+- KML files are supported
+- Open in a new tab option updated
+- Compatible with WordPress 6.0
+
+01-04-2022
+- ***ALERT! Old Templates breaking changes***
+- Template 0,1,2,3 has been revamped to better UI/UX
+- Migrated from Bootstrap 3 to 4+
+- Color & Font Customizer is integrated
+- Tabs filters are added
+
+17-03-2022
+- Borlabs Cookies Plugin Compatible
+- Added Option to Show only selected Store
+
+05-03-2022
+- Multiple languages stores data can be feed
+
+24-02-2022
+- Customization section added to directly modify the templates
+- Cluster library is updated
+- Address Dropdown for Country, State & Cities
+- Applied max_bound for Search Zoom
+- Template 3 has dropdowns for addresses
+- direction_mode="walking"  (driving, bicycling, walking, transit, two_wheeler)
+
+24-01-2022
+- Compatible with WordPress 5.9
+- Changed the admin ASL Settings UI
+- Fixed analytics in the list template
+- Product is replaced by "Specialities"
+
+12-01-2022
+- Upgraded the underscore.js library
+- Store Detail page supports map_layout attribute
+- Supports Polyline Drawing
+
+07-12-2021
+- Added Filter Markers Option in the Category Accordion Templates
+- Enhanced the "Fetch Missing Coordinates feature"
+- Fixed the Same Hours button issue
+- Added click_redirect="website" option (Redirect on click of the marker)
+
+21-10-2021
+- Cronjob folder is moved to /public/cron
+- Changed the edit store URL as it was malfunctioning for a couple of users
+- Minor updates
+
+09-07-2021
+- Boundary Box for search
+- Print Store List option
+- Compatible with WordPress 5.8
+
+09-05-2021
+- Added support for the cronjob
+- Replace setCenter to panTo
+- Fixed the cache issue when a folder doesn't exist
+
+26-05-2021
+- Highlight a store with hash example: /store-locator/#54
+- Added Fast cache feature
+- Added option to copy timings for each day
+- Deprecation message removed with WordPress 5.7
+- No longer creates duplicate logos
+
+11-05-2021
+- Added an error message when API is not functioning
+- Marker Generator Tool  https://agilestorelocator.com/marker-generator-tool/
+- max_bound_zoom attribute for restricting the bound zoom
+
+03-05-2021
+- Added Distance Control in the List Layout
+- Hide List at the load, (it also hide when the search is cleared)
+- Extra spacing header rows will also work
+- The brand is showing up in the list layout
+
+25-02-2021
+- Geo-Location in the Search Widget
+
+04-01-2021
+- XML feeds can be accessed through https://your-url.com/?feed=stores
+- Category Bound Option
+
+11-12-2020
+- Integrated two new templates
+- Cleanup the Direction API CSS
+- Added Store detail page
+- Cleanup the Search Widget CSS
+- Compatible with WordPress 5.6
+- Many more edits
+
+21-09-2020
+- Added a new template in the store locator
+- Added option to sort the categories list
+- Updated Google Maps Direction service URL
+
+20-08-2020
+- Compatible with WordPress 5.5
+
+10-05-2020
+- Added Option to add custom fields
+
+14-04-2020
+- Option for mobile or list on the top
+- [ASL_SEARCH], a separate store locator search widget
+- Improvements in the UI
+
+01-04-2020
+- Compatible with WordPress 5.4
+
+02-01-2020
+- Compatible with WordPress 5.3
+
+23-04-2019
+- Updated MySQL INDEXES
+- Import Stores Images by URL.
+
+10-05-2019
+- Compatible with WordPress 5.2
+
+05-03-2019
+- Modern Admin UI with Bootstrap 4
+- MySQL query stress reduced for Admin
+- Minor updates
+
+13-12-2018
+- Tested with WordPress 5
+
+18-12-2018
+- Add auto-scroll to the list
+- Translation in admin
+- Support CSV with Excel sheet
+- Second Search with search_2 parameter
+
+07-08-2018
+- Add a Radius Circle for Search
+
+7-6-2018
+- Fetch Missing Lat/Lng without reimport
+- Remove other Google Maps scripts
+- Remove the chance of Conflict in the Accordion Layout
+
+16-05-2018
+- Add Reset Option in Categories
+- Added Search by Store City, State (Beta Version)
+- Added Notification of Google Maps API Error
+
+20-4-2018
+- Option to Limit No # of Stores in List
+- Smooth Pan Option
+- Set Search Zoom
+- Set Default Location Marker
+- Set Limit to Store Logo Width n Height
+- Set Limit to Category Icon Width n Height
+- Set Limit to Marker Icon Width n Height
+
+28-2-2018
+- Set your own Custom Store List Order
+- Sort by Store ID
+
+9-2-2018
+- Option to Select Search Button Type
+- Sort by Logo
+
+10-1-2018
+- Backup Assets
+- Import Assets
+
+6-11-2017
+- Mobile Optimize
+- target _blank for website
+- Limit to Categories
+- Add drop-down for Selection
+- Multiple Dates for a Store
+- Full-Day ON/OFF
+- Updated no_script HTML
+- Updated start time and End time from admin
+- RTL of new work
+- Translation Updated
+
+6-9-2017
+- Version 3.2.0
+- Moved Action buttons to Left in Manage Stores
+- Added Update Stores option in Import/Export
+- Open Google Map in Mobile App
+- Fixed missing multi-lingual words
+- Added Sorting by Name, Distance, City, and State
+
+29-8-2017
+- Moved Action buttons to Left in Manage Stores
+- Added Update Stores option in Import/Export
+- Open Map in Mobile App
+- Fixed missing multi-lingual words
+
+12-07-2017
+- Updated Bootstrap JS file
+- Removing a Notice from a file
+
+15-06-2017
+- Added Fix for Category Icon Path
+- Updated Admin CSS
+- Removed Conflict of Bootstrap Modal
+- Removed Conflict of Bootstrap Dropdown
+
+08-06-2017
+- Added Customization Template Option
+- Added qTranslate Compatibility
+- Fixed Minor issues
+- Added Fixed_Radius parameter
+- Updated CSS
+
+20-05-2017
+- Updated RTL CSS
+- Default Category Selection
+- Added Default Map Added
+- Map Region Added Map Language
+
+05-05-2017
+- Add Logo Manager
+- Full Height Fixed
+- Full Height Feature
+- Fixed category Click
+
+04-24-2017
+- Add Logo Manager
+- Fix marker sorting issue in admin
+- Upgraded UI
+- Fix glyphicon Issue
+- Show Nearest Search Location
+
+04-13-2017
+- Removed jQuery UI from Admin
+- Added Some Fixes
+- Fixed Editor issue
+
+04-22-2017
+- Added Help text in Admin
+
+02-20-2017
+- Accordion Template minor fix
+- Added User Help on Backend
+
+02-02-2017
+- Minor issues fixed
+- Deal Maps Plugin
+- Real Estate Maps Plugin
+
+28-09-2016
+- Dashboard and Analytics Added
+- Top Searched and Top Views Stores Added
+- Added MinZoom and MaxZoom for Google Maps
+
+22-8-2016
+- Fixed Issue with VC
+- Add new marker images
+- Minor bugs fixed
+
+10-8-2016
+- Added Separate Time for Each Day - Add time slot for each day
+- Added Duplicate Store feature
+- Added Layers and Shapes on Google maps
+- Allow to Set Zoom when an item Clicked on Google maps
+
+20.07.2016
+- Added Logo_image in Excel Import
+
+20.07.2016
+- Add RTL and translation support in WP Plugin
+- Week Days selection in WP Admin
+- Full-Width Map Store Locator
+- Show and Hide List Store Locator List
+- Time Format 24 Hours
+
+13.07.2016 - ver 1.0
+- Added Google Maps API Key Option
+- Fixed: The position of ASL, previously it was putting at the top of the Page
+- Tried to remove the conflict of jQuery if already added in admin
+- Fixed: Google Maps Cluster was not disabling Properly
+- Fixed: Distance Slider was not disabling

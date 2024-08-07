@@ -1,0 +1,84 @@
+# Copyright (C) 2020 Gift Up!
+# This file is distributed under the same license as the Gift Up! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Up! 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-06-16 15:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-10-02 09:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=n % 10 == 1 && n % 100 != 11 ? 0 : n != 0 ? "
+"1 : 2;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: view/giftup-cart.php:93
+msgid "Apply"
+msgstr "Piesakies"
+
+#: view/giftup-cart.php:85 view/giftup-cart.php:92
+msgid "Apply gift card"
+msgstr "Piesakies dāvanu karti"
+
+#: view/giftup-cart.php:78
+msgid "Balance"
+msgstr "Līdzsvars"
+
+#: includes/giftup-woocommerce-hooks.php:222 view/giftup-cart.php:60
+#: view/giftup-cart.php:72
+msgid "Gift card"
+msgstr "Dāvanu karte"
+
+#: view/giftup-cart.php:45
+msgid ""
+"Gift card cannot be used as it is a unit-backed, not a currency-backed gift "
+"card"
+msgstr ""
+"Dāvanu karti nevar izmantot, jo tā ir vienības, nevis valūtas nodrošināta "
+"dāvanu karte"
+
+#: view/giftup-cart.php:89
+msgid "Gift card code"
+msgstr "Dāvanu kartes kods"
+
+#: view/giftup-cart.php:41
+msgid "Gift card has expired"
+msgstr "Dāvanu kartes derīguma termiņš ir beidzies"
+
+#: view/giftup-cart.php:49
+msgid "Gift card has no remaining balance"
+msgstr "Dāvanu kartei nav atlikuma"
+
+#: view/giftup-cart.php:56
+msgid "Gift card not found"
+msgstr "Dāvanu karte nav atrasta"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "Gift Up!"
+msgstr "Dāvanu uz augšu!"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.giftup.com/"
+msgstr "https://www.giftup.com/"
+
+#: view/giftup-cart.php:76
+#| msgid "remove"
+msgid "Remove"
+msgstr "Noņemt"
+
+#. Description of the plugin
+msgid ""
+"The simplest way to sell your own gift cards/certificates/vouchers from "
+"inside your WordPress website easily with no monthly fee. Redeemable in your "
+"WooCommerce shopping cart."
+msgstr ""
+"Vienkāršākais veids, kā viegli pārdot savas dāvanu kartes / sertifikātus / "
+"kuponus no jūsu WordPress tīmekļa vietnes bez ikmēneša maksas. Atjaunojams "
+"jūsu WooCommerce iepirkumu grozā."

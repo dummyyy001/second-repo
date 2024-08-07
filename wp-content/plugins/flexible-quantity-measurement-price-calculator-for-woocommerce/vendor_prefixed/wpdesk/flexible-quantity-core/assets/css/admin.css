@@ -1,0 +1,123 @@
+.decimals-fields.hidden, .decimals-fields-with-labels.hidden{
+	display:none!important;
+}
+
+#measurement_product_data.woocommerce_options_panel input[type=text], #measurement_product_data.woocommerce_options_panel input[type=number], #measurement_product_data.woocommerce_options_panel select {
+	max-width: 150px!important;
+	width: 100%!important;
+}
+
+.product-panel-item {
+	border-bottom: 1px solid #EEE;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+#measurement_product_data .measurement-header h3 { margin: 9px 0; padding: 5px 9px; margin-bottom: 0; }
+#measurement_product_data .measurement-header h4 { color: #000; margin: 9px 0; padding: 5px 9px; margin-bottom: 0; font-size: 14px; }
+#measurement_product_data .measurement-header p { margin-top: 0; padding-top: 0; }
+#measurement_product_data hr { height:2px; border-style:none; border-bottom:solid 1px white; color:#DFDFDF; background-color:#DFDFDF; }
+#measurement_product_data .fq-calculator-pricing-table td.fq-calculator-pricing-rule-range input { float:none; width:auto; }
+#measurement_product_data table.fq-calculator-pricing-table { margin: 12px; width: 95%; }
+#measurement_product_data table.fq-calculator-pricing-table td { padding: 10px 7px 10px; cursor: move; }
+#measurement_product_data table.fq-calculator-pricing-table button { font-family: sans-serif; }
+#measurement_product_data table.fq-calculator-pricing-table button.fq-calculator-pricing-table-delete-rules { float: right; }
+#measurement_product_data input._measurement_pricing_overage { width: 65px !important; }
+
+.product-panel-item .widefat { border: 0; }
+.product-panel-item .widefat p.form-field { margin: 0 0; padding: 0 0 !important; }
+.product-panel-item .widefat p.form-field select { width: 100% !important; }
+.product-panel-item .widefat tr:first-child td.actions a.remove { display: none; }
+p._enable_shipping_table_field label { display: none; }
+p._enable_pricing_table_field label { display: none; }
+
+.woocommerce_options_panel .fcm-shipping-panel .widefat,
+.woocommerce_options_panel .fcm-pricing-panel .widefat
+{
+	display: none;
+}
+
+.woocommerce_options_panel .fcm-shipping-panel fieldset.form-field,
+.woocommerce_options_panel .fcm-shipping-panel p.form-field,
+.woocommerce_options_panel .fcm-pricing-panel fieldset.form-field,
+.woocommerce_options_panel .fcm-pricing-panel p.form-field
+{
+	margin: 0 0; padding: 0 9px !important;
+}
+
+.woocommerce_options_panel .product-panel-item .widefat p.form-field {
+	margin: 0 0; padding: 0 0 !important;
+}
+.woocommerce_options_panel .product-panel-item .widefat td {
+	padding: 0 9px;
+	margin: 0 0;
+}
+
+.woocommerce_options_panel .product-panel-item .widefat tr:first-of-type td {
+	padding-top: 10px;
+}
+
+.woocommerce_options_panel .product-panel-item .widefat td input {
+	margin: 0 0 !important;
+	width: auto !important;
+	float: none !important;
+}
+
+.flex-row-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+.flex-row-container > .flex-row-item {
+	flex: 1 1 33%; /*grow | shrink | basis */
+}
+
+.fcm-body-decimal p.form-field {
+	padding: 10px 9px !important
+}
+.fcm-body-decimal p.form-field label {
+	display: block;
+	float: none;
+	width: auto;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 10px 0;
+}
+.flex-row-container {
+	margin: 0 9px;
+}
+
+.decimals-fields p.form-field label {
+	display: none !important;
+}
+
+.fcm-body-decimal .decimals-fields p.form-field {
+	padding: 0 0 !important
+}
+
+.fcm-body-decimal .decimals-fields-with-labels p.form-field {
+	padding: 0 0 !important
+}
+
+.fcm-body-decimal .decimals-fields-with-labels label {
+	font-size:12px!important;
+	color: rgb(85, 85, 85);
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.input-error{
+	outline: 1px solid red;
+}
+
+.fq_decimals_enabled_field label{
+	display: none!important;
+}
+
+.woocommerce_options_panel fieldset.form-field.fq_decimals_enabled_field, .woocommerce_options_panel p.form-field.fq_decimals_enabled_field{
+	padding-left: 10px!important;
+}

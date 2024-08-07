@@ -1,0 +1,183 @@
+/* Data Explorer */
+
+.wrap.wpda-explorer-backend {
+    position: relative;
+}
+
+.wrap.wpda-explorer-backend .wpda-pp-container .pp-container-explorer .pp-sub-container-explorer .pp-explorer-header  {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.wrap.wpda-explorer-backend .wpda-pp-container .pp-container-explorer .pp-container-admin .pp-explorer-header {
+    float: unset;
+    position: relative;
+    right: unset;
+    top: unset;
+}
+
+.wrap.wpda-explorer-backend .wpda-pp-container .pp-container-explorer > div.MuiBox-root > .pp-sub-container-explorer > .pp-explorer-header {
+    transition: unset;
+    box-shadow: unset;
+    background-color: transparent;
+    color: #1d2327;
+}
+
+.wrap.wpda-explorer-backend .wpda-pp-container .pp-container-explorer > div.MuiBox-root > .pp-sub-container-explorer > .pp-explorer-header > .MuiToolbar-root {
+    min-height: 0;
+    padding-right: 0 !important;
+}
+
+.wpda-pp-container p,
+.wpda-pp-container .pp-container-explorer ul,
+.wpda-pp-container .pp-container-explorer li {
+    margin: 0 !important;
+}
+
+.wpda-pp-container .pp-container-explorer .pp-import-container ul {
+    list-style: disc;
+    margin: 10px 0 !important;
+}
+
+.wpda-pp-container .pp-container-explorer ul[role=tree] {
+    margin: 0 0 0 0 !important;
+    padding: 0 !important;
+}
+
+.wpda-pp-container .pp-container-explorer ul[role=tree] .MuiTreeItem-group {
+    margin-left: 30px !important;
+}
+
+.wpda-pp-container .pp-container-explorer input[type=text] {
+    min-height: unset;
+}
+
+.wpda-pp-container .pp-table input[type=text].MuiInputBase-input {
+    padding: 8px;
+}
+
+.wpda-pp-container .entry-content thead th, .entry-content tr th,
+.wpda-pp-container-explorer .entry-content thead th, .entry-content tr th {
+    color: inherit;
+}
+
+.wpda-pp-container .pp-container-explorer {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 782px) {
+    .wrap.wpda-explorer-backend .wpda-pp-container .pp-container-explorer .pp-sub-container-explorer .pp-explorer-header {
+        top: 0;
+    }
+}
+
+/* Apps */
+
+.wrap.wpda-apps-backend {
+    position: relative;
+}
+
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist {
+    margin-bottom: 0;
+}
+
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist > div.MuiBox-root.pp-applist > header {
+    transition: unset;
+    box-shadow: unset;
+    background-color: transparent;
+    color: #1d2327;
+    position: absolute;
+    top: 7px;
+}
+
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist > div.MuiBox-root.pp-applist > header .pp-applist-toolbar {
+    gap: 5px;
+    align-items: center;
+}
+
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist > div.MuiBox-root.pp-applist > header .pp-applist-toolbar {
+    min-height: 0;
+    padding-right: 0 !important;
+}
+
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist .pp-applist-title {
+    justify-content: end;
+    visibility: hidden;
+}
+.wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist .pp-applist-search {
+    gap: 5px;
+}
+
+.wrap.wpda-apps-backend h1.wp-heading-inline {
+    margin-bottom: 15px;
+}
+
+.wpda-pp-container .pp-container-applist .MuiButtonBase-root.MuiAccordionSummary-root {
+    background-color: unset !important;
+}
+
+.wpda-pp-container .pp-container-applist header .MuiAutocomplete-root .MuiInputBase-root {
+    padding: 0 20px 0 10px;
+    max-height: unset;
+}
+.wpda-pp-container .pp-container-applist header .MuiInputBase-root input[type=text].MuiInputBase-input {
+    padding: 8px;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 900px) {
+    .wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist header .pp-applist-toolbar {
+        grid-template-columns: auto 1fr;
+        padding-left: 0;
+    }
+    .wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist header .pp-applist-toolbar .pp-applist-title {
+        gap: 0;
+    }
+    .wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist header .pp-applist-toolbar .pp-applist-search {
+        justify-content: unset;
+    }
+    .wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist {
+        margin-bottom: 0;
+    }
+    .wrap.wpda-apps-backend .wpda-pp-container .pp-container-applist > div.MuiBox-root.pp-applist {
+        position: unset;
+    }
+}
+
+/* Data Tables */
+
+.wpda-pp-container .pp-table table thead tr th.pp-actions > span,
+.wpda-pp-container .pp-table table tbody tr td.pp-actions > span,
+.wpda-pp-container .pp-table table tfoot tr th.pp-actions > span {
+    margin-top: -1px;
+}
+
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="checkbox"].disabled,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="checkbox"].disabled:checked::before,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="checkbox"]:disabled,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="checkbox"]:disabled:checked::before,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="radio"].disabled,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="radio"].disabled:checked::before,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="radio"]:disabled,
+#pp-setting-drawer.MuiPaper-root.MuiDrawer-paper input[type="radio"]:disabled:checked::before {
+    opacity: 0;
+}
+
+.wpda-pp-container .pp-table table th.MuiTableCell-root input[type=checkbox].PrivateSwitchBase-input,
+.wpda-pp-container .pp-table table td.MuiTableCell-root input[type=checkbox].PrivateSwitchBase-input {
+    width: inherit;
+    height: inherit;
+}
+
+/* Decrease x-indexes to support the WordPress media library */
+
+.wpda-pp-container .pp-component {
+    z-index: 150000;
+}
+
+.wpda-pp-container .pp-component .pp-form {
+    z-index: 99999;
+}

@@ -1,0 +1,1602 @@
+# Copyright (C) 2024 WP Desk
+# This file is distributed under the same license as the Flexible Quantity - Measurement Price Calculator for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Quantity - Measurement Price Calculator for WooCommerce 1.0.28\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-quantity-measurement-price-calculator-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-07T01:34:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: flexible-quantity-measurement-price-calculator-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php:36
+msgid "Flexible Quantity - Measurement Price Calculator for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php:38
+msgid "https://wpde.sk/flexible-quantity-measurement-price-calculator-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php:37
+msgid "Measurement Price Calculator for WooCommerce. Add a new unit of measure for every product you want. Calculate the product price based on units."
+msgstr ""
+
+#. Author of the plugin
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php:40
+msgid "WP Desk"
+msgstr ""
+
+#. Author URI of the plugin
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php
+#: flexible-quantity-measurement-price-calculator-for-woocommerce.php:39
+msgid "https://www.wpdesk.net/"
+msgstr ""
+
+#: src/Plugin.php:163
+msgid "Documentation"
+msgstr ""
+
+#: src/Plugin.php:164
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/SupportMenuPage.php:38
+msgid "How to use"
+msgstr ""
+
+#: src/Plugin.php:166
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:191
+msgid "Support"
+msgstr ""
+
+#: src/Plugin.php:191
+msgid "Free version of plugin Flexible Quantity for WooCommerce was deactivated because Pro version is active."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Product.php:24
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:188
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:202
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:206
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:690
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Product.php:24
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Variable.php:46
+msgid "Overrides the area calculated from the width/length dimensions for the Measurements Price Calculator."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Product.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:113
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:318
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:348
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:362
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:366
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Volume"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Product.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Variable.php:69
+msgid "Overrides the volume calculated from the width/length/height dimensions for the Measurements Price Calculator."
+msgstr ""
+
+#. translators: Placeholders: %s - currency symbol
+#. translators: Placeholder: %s - currency symbol
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Product.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/Variable.php:110
+msgid "Minimum Price (%s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/ProductPanel.php:59
+msgid "We noticed an error while trying to get the dimension table."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/ProductPanel.php:59
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:604
+msgid "Only digits allowed."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/ProductPanel.php:59
+msgid "Cannot edit price while a pricing table is active"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:9
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:10
+msgid "Show Product Price Per Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:9
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:10
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:10
+msgid "Check this box to display product pricing per unit on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:11
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:12
+msgid "Pricing Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:11
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:12
+msgid "Label to display next to the product price (defaults to pricing unit)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:13
+msgid "Pricing Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:12
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:13
+msgid "Unit to define pricing in"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:14
+msgid "Calculated Price"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:13
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:14
+msgid "Check this box to define product pricing per unit and allow customers to provide custom measurements"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:14
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:15
+msgid "Calculated Weight"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:15
+msgid "Check this box to define the product weight per unit and calculate the item weight based on the product area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:16
+msgid "Calculated Inventory"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:16
+msgid "Check this box to define inventory per unit and calculate inventory based on the product area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:20
+msgid "Length Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:20
+msgid "Length input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:21
+msgid "Length Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:21
+msgid "The frontend length input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:116
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:684
+msgid "Length"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:23
+msgid "Length Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:32
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:25
+msgid "Width Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:32
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:25
+msgid "Width input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:33
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:26
+msgid "Width Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:33
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:26
+msgid "The frontend width input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:30
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:35
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:119
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:686
+msgid "Width"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area-lxw.php:28
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:36
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/perimeter.php:28
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:28
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:28
+msgid "Width Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:20
+msgid "Area Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:20
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:20
+msgid "Area input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:21
+msgid "Area Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:21
+msgid "The frontend area input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:22
+msgid "Editable"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:22
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:22
+msgid "Check this box to allow the needed measurement to be entered by the customer"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/area.php:24
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:23
+msgid "Area Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:14
+msgid "Check this box to define the product weight per unit and calculate the item weight based on the product dimension"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:15
+msgid "Check this box to define inventory per unit and calculate inventory based on the product dimension"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:20
+msgid "Select to display the product length in the price calculator"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:24
+msgid "Length Editable"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:24
+msgid "Check this box to allow the needed length to be entered by the customer"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:30
+msgid "Select to display the product width in the price calculator"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:34
+msgid "Width Editable"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:34
+msgid "Check this box to allow the needed width to be entered by the customer"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:40
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:45
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:32
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:32
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:122
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:688
+msgid "Height"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:40
+msgid "Select to display the product height in the price calculator"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:42
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:30
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:30
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:25
+msgid "Height Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:42
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:30
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:25
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:30
+msgid "Height input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:43
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:31
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:31
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:26
+msgid "Height Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:43
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:31
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:31
+msgid "The frontend height input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:44
+msgid "Height Editable"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:44
+msgid "Check this box to allow the needed height to be entered by the customer"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/dimension.php:46
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/surface.php:33
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:28
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:33
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:28
+msgid "Height Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:15
+msgid "Check this box to define the product weight per unit and calculate the item weight based on the product volume"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-axh.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume-lxwxh.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:16
+msgid "Check this box to define inventory per unit and calculate inventory based on the product volume"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:20
+msgid "Volume Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:20
+msgid "Volume input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:21
+msgid "Volume Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:21
+msgid "The frontend volume input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/volume.php:24
+msgid "Volume Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:20
+msgid "Wall length input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:21
+msgid "The frontend wall length input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:25
+msgid "Room wall height input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/wall.php:26
+msgid "The frontend room wall height input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:15
+msgid "Check this box to use the customer-configured product weight as the item weight"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:16
+msgid "Check this box to define inventory per unit and calculate inventory based on the product weight"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:20
+msgid "Weight Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:20
+msgid "Weight input field label to display on the frontend"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:21
+msgid "Weight Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:21
+msgid "The frontend weight input field unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:23
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:110
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:380
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Weight"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/measurements/weight.php:24
+msgid "Weight Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/dimensions-decimals.php:10
+msgid "Unit Dimensions"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/dimensions-decimals.php:18
+msgid "Enable Advanced Calculator Settings. <br><br> Use the extended options to specify the unit dimensions and allow the buyer to enter them. The price will be calculated on the product page. You can use the following settings to set a fixed dimension value or enable user input. Need more information? <a href=\"https://wpde.sk/flexible-quantity-core-units\" target=\"_blank\">Check the plugin documentation →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/dimensions-decimals.php:23
+msgid "To use these settings, <a href=\"https://www.wpdesk.net/products/flexible-quantity-calculator-for-woocommerce/?utm_source=wp-admin-plugins&utm_medium=link&utm_campaign=flexible-quantity&utm_content=unit-dimensions\">upgrade to PRO →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:48
+msgid "Pricing table"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:56
+msgid "Enable Pricing Table <br><br> The table will allow you to determine the different prices of the unit of measurement based on its quantity. Set the quantity range, and the regular and the sale price. The plugin will apply the first met condition from the table. <a href=\"https://wpde.sk/flexible-quantity-core-pricing\" target=\"_blank\">Check the plugin documentation →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:61
+msgid "To use these settings, <a href=\"https://www.wpdesk.net/products/flexible-quantity-calculator-for-woocommerce/?utm_source=wp-admin-plugins&utm_medium=link&utm_campaign=flexible-quantity&utm_content=pricing-table\">upgrade to PRO →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:71
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:65
+msgid "From"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:72
+msgid "The minimum quantity to apply the new price for the unit of measure."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:75
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:69
+msgid "To"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:76
+msgid "The maximum quantity to apply the new price for the unit of measure."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:79
+msgid "Price"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:83
+msgid "New regular price per unit."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:86
+msgid "Sale Price"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/pricing-table.php:90
+msgid "New sale price per unit."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:42
+msgid "Shipping class table"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:50
+msgid "Enable Shipping Class Table. <br><br> The table will allow you to change the shipping class based on the quantity of the new unit of measure added to the cart. The plugin will apply the first condition that is met. The table uses WooCommerce shipping classes. <a href=\"https://wpde.sk/flexible-quantity-core-shipping\" target=\"_blank\">Check the plugin documentation →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:55
+msgid "To use these settings, <a href=\"https://www.wpdesk.net/products/flexible-quantity-calculator-for-woocommerce/?utm_source=wp-admin-plugins&utm_medium=link&utm_campaign=flexible-quantity&utm_content=shipping-table\">upgrade to PRO →</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:66
+msgid "The minimum quantity for applying to the new shipping class."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:70
+msgid "The maximum quantity for applying to the new shipping class."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:73
+msgid "Shipping class"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/panel-part/shipping-table.php:74
+msgid "New shipping class."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:16
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:18
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:15
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:17
+msgid "Measurement Range"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:21
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:20
+msgid "Configure the starting-ending range, inclusive, of measurements to match this rule.  The first matched rule will be used to determine the price.  The final rule can be defined without an ending range to match all measurements greater than or equal to its starting range."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:27
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:29
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:26
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:28
+msgid "Price per Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:32
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:31
+msgid "Set the price per unit for the configured range."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:38
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:40
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:37
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:39
+msgid "Sale Price per Unit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:43
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:42
+msgid "Set a sale price per unit for the configured range."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:99
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:97
+msgid "Add Rule"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/pricing_table.php:102
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-pricing_table.php:100
+msgid "Delete Selected"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:22
+msgctxt "product_menu"
+msgid "Flexible Quantity"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:31
+msgid "Fixed value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:31
+msgid "User value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:38
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:58
+msgid "Field label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:38
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:58
+msgid "Enter the name for the dimension field label."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:44
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:64
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:197
+msgid "Unit of measure"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:44
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:64
+msgid "Choose the unit of measure for the dimension."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:50
+msgid "Value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:50
+msgid "Select the products size."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:74
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:224
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:210
+msgid "Increment"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:74
+msgid "Fill in the increment value for the unit dimension."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:80
+msgid "Minimum value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:80
+msgid "Set the minimum value for the unit dimension."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:86
+msgid "Maximum value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:86
+msgid "Set the maximum value for the unit dimension."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:107
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:384
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:130
+msgid "Ups. something goes wrong with your ajax request. Please try again."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:161
+msgid "Measurement calculator"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:165
+msgid "Enable the new unit of measurement for the product. Then enter the increment of the unit, its regular, and sale price. Also, specify the minimum and maximum quantity. You can also use the extended options, which will allow you to calculate prices based on the dimensions directly on the product page. <a href=\"https://wpde.sk/flexible-quantity-core-main\" target=\"_blank\">Check plugin's docs →</a>."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:176
+msgid "New Unit of Measure"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:176
+msgid "Enable the settings for the new unit of measurement."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:189
+msgid "Unit Field Label"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:189
+msgid "Enter the name for the unit field label."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:197
+msgid "Choose the new unit of measure for the product."
+msgstr ""
+
+#. translators: Placeholders: %s - currency symbol
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:209
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Shortcodes/PricingTable.php:73
+msgid "Price (%s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:209
+msgid "Set the regular price for the unit of measure."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:214
+msgid "Sale price (%s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:214
+msgid "Set the sale price for the unit of measure."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:224
+msgid "Fill in the increment value for the unit."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:230
+msgid "Minimum quantity"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:230
+msgid "Set the minimum quantity for the unit."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:236
+msgid "Maximum quantity"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:236
+msgid "Set the maximum quantity for the unit."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:246
+msgid "Calculate Inventory"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:246
+msgid "Check this box to define inventory per unit and calculate inventory based on the product. <br><br> If you select this option, then, e.g., 30 kg will be seen as 30 pcs. of the product. If you don't, then regardless of the purchased amount of the new unit of measurement, the stock will decrease by 1."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:254
+msgid "Sold individually"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:254
+msgid "Enable this to only allow one of this item to be bought in a single order. <br><br> With this option, the buyer will be able to order only 1 item of the product with the new unit of measure (e.g., 5 kg.). If you don’t select that option, it will be possible to buy more pcs. of the product (e.g., 5 kg. each)."
+msgstr ""
+
+#. translators: Placeholder: %s - delimiter to use in the input
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:413
+msgid "Use a single number to set a fixed value for this field on the frontend, or a %s-separated list of numbers to create a select box for the customer to choose between."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:415
+msgid "Example: 1/8; 0,5; 2"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanel-product_data-calculator.php:417
+msgid "Example: 1/8, 0.5, 2"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "g"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "kg"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "t"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "oz"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "lbs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:48
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:122
+msgid "tn"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "mm"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "cm"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "m"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "km"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "in"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "ft"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "yd"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:67
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:132
+msgid "mi"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq mm"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq cm"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq m"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "ha"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq km"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+msgid "sq. in."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq in"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+msgid "sq. ft."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq ft"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+msgid "sq. yd."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq yd"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "acs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+msgid "sq. mi."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:142
+msgid "sq mi"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "ml"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "l"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:156
+msgid "cu m"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "cup"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "pt"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "qt"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "gal"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:152
+msgid "fl oz"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:156
+msgid "cu in"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:156
+msgid "cu ft"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:105
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:156
+msgid "cu yd"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:154
+msgid "Add Overage "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:154
+msgid "If you need to add and charge for a cut or overage estimate in addition to the customer input, enter the percentage of the total measurement to use."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:176
+msgid "%s Input"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:176
+msgid "Accept free-form customer input"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:176
+msgid "Accept a limited set of customer inputs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:186
+msgid "%s Options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:190
+msgid "Min value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:200
+msgid "Max value"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Admin/writepanels/writepanels-init.php:221
+msgid "If applicable, enter limits to restrict customer input, such as an accepted increment and/or maximum value."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/SupportMenuPage.php:36
+msgctxt "main_menu"
+msgid "Flexible Quantity"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:33
+msgid "Get support"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:38
+msgid "Share idea"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:46
+msgid "Before sending a message please:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:50
+msgid "Prepare the information about the version of WordPress, WooCommerce, and Flexible Quantity (preferably your system status from WooCommerce->Status)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:53
+msgid "Describe the issue you have"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Marketing/Views/marketing-page.php:56
+msgid "Attach any log files & printscreens of the issue"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/CustomUnitsMenuPage.php:37
+msgid "Custom units"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:21
+msgid "Product unit name"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:29
+msgid "The name of the unit will be visible in the list in the product edition, in the Flexible Quantity tab"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:50
+msgid "Settings are saved"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:57
+msgid "Flexible Quantity - Custom Units"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:61
+msgid "Below you can add custom units, which will be added to the list of units next to the product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:65
+msgid "Check out plugins docs to learn how to set up custom units for WooCommerce products &rarr;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Settings/Views/custom-units.php:83
+msgid "Save settings"
+msgstr ""
+
+#. translators: Placeholders: %s - pricing unit
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/Shortcodes/PricingTable.php:71
+msgid "Range (%s)"
+msgstr ""
+
+#. translators: Placeholders: %s - measurement label
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:98
+msgid "%s missing."
+msgstr ""
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement value (number)
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:109
+msgid "%1$s value must be greater than or equal to %2$s."
+msgstr ""
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement value (number)
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:113
+msgid "%1$s value must be less than or equal to %2$s."
+msgstr ""
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - input measure increment value (step amount)
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:122
+msgid "%1$s value must be in increments of %2$s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:141
+msgid "Product mesurment value (%1$s) must be greater than or equal to %2$s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:147
+msgid "Product mesurment value (%1$s) must be less than or equal to %2$s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:152
+msgid "The size of the product is %1$s, allowed increment value is %2$s, please change the size of the product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:967
+msgid "Overage Estimate (%s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:973
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:20
+msgid "Total %1$s (%2$s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:973
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:20
+msgid "Total %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:975
+msgid "Overage %1$s (%2$s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:975
+msgid "Overage %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Cart.php:982
+msgid "Overage Cost (%s%%)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:230
+msgid "Only %1$s %2$s left in stock"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:230
+msgid "In stock"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:233
+msgid "%1$s %2$s in stock"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:238
+msgid "(backorders allowed)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:456
+msgid "Backordered measure"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Inventory.php:463
+msgid "Backordered quantity or measure"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Measurement.php:351
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:95
+msgid "item"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:234
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:238
+msgid "Perimeter"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:267
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Product.php:271
+msgid "Surface Area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductLoop.php:43
+msgid "Select options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:604
+msgid "Unfortunately we don't have enough"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "Enter the multiple of the digit {0}."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/ProductPage.php:605
+msgid "This field is required."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:543
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:545
+msgid "Free!"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:666
+msgid "per %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:685
+msgid "Required Length"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:687
+msgid "Required Width"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:689
+msgid "Required Height"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:691
+msgid "Required Area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:692
+msgid "Required Volume"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:693
+msgid "Required Weight"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Settings.php:694
+msgid "Distance around your room"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Dimension"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Volume (LxWxH)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:43
+msgid "Custom"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/src/WooCommerce/Units.php:156
+msgid "cu cm"
+msgstr ""
+
+#. translators: Placeholder: %s - format example
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:71
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/quantity-calculator.php:61
+msgid "Please enter the desired amount with this format: %s"
+msgstr ""
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement unit label
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:86
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/quantity-calculator.php:47
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:183
+msgid "Overage estimate (%s%%)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:197
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/quantity-calculator.php:114
+msgid "Total Price"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/price-calculator.php:197
+msgid "Product Price"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/quantity-calculator.php:19
+msgid "Actual %1$s (%2$s)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/flexible-quantity-core/templates/single-product/quantity-calculator.php:19
+msgid "Actual %s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:59
+msgid "Grow your business with WP Desk"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:283
+msgid "Buy now"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:285
+msgid "Learn more"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:289
+msgid "Download"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:301
+msgid "More info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:194
+msgid "Docs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:198
+msgid "Settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Disabled"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Emergency"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Alert"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Critical"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Error"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Warning"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Notice"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Debug"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:55
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Enable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:60
+msgid "Disable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+msgid "Hey %s,"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:26
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:40
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:47
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:56
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:67
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+msgid "Current settings and usage information of %1$s plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:78
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:81
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:91
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+msgid "You are deactivating %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
